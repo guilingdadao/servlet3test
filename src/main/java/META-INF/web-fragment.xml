@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+    http://java.sun.com/xml/ns/javaee/web-fragment_3_0.xsd"
+	metadata-complete="true">
+	<!--给当前配置文件定义一个名称 -->
+	<name>FragmentA</name>
+	<servlet>
+		<servlet-name>fragmentDemo</servlet-name>
+		<servlet-class>com.yeg.servlet3.FragmentDemoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fragmentDemo</servlet-name>
+		<url-pattern>/fragment</url-pattern>
+	</servlet-mapping>
+</web-fragment>
